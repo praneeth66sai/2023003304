@@ -1,0 +1,89 @@
+.bulletin-panel {
+  max-width: 760px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.bulletin-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 2px solid #f6f6f6;
+  padding-bottom: 1rem;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 2rem;
+}
+
+.custom-select-menu {
+  flex: 1;
+  padding: 12px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 0.95rem;
+  outline: none;
+  color: #334155;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+}
+
+.custom-select-menu:focus {
+  border-color: #3b82f6;
+}
+
+.bulletin-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+
+.bulletin-card.unread-status {
+  border-left: 5px solid #3b82f6;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.06);
+}
+
+.tag-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.category-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #64748b;
+}
+
+.new-indicator {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 800;
+}
+
+.action-ack-button {
+  background-color: transparent;
+  border: 1px solid #3b82f6;
+  color: #3b82f6;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.action-ack-button:hover {
+  background-color: #eff6ff;
+}
